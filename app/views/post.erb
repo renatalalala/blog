@@ -1,0 +1,20 @@
+<h3>POST_ID PAGE</h3>
+
+  <%= @post.title %><br>
+  <%= @post.body %>
+
+  <% if @post.tags%>
+<ul>
+<% @post.tags.each do |tag| %>
+  <li><%= tag.name %></li>
+  <% end %>
+  <% end %>
+
+
+
+
+<a href="#">Edit</a>
+
+
+
+

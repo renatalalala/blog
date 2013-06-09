@@ -1,0 +1,1 @@
+        <!-- <a href="/posts/<%=@post.id%>/edit">Edit</a> -->
